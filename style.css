@@ -1,0 +1,174 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 0 300px;
+    height: 50px;
+    background-color: #1f2937;
+    color: #F9FAf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#hero {
+    padding: 100px 300px;
+    display: flex;
+    gap: 32px;
+    background-color:#1f2937;
+}
+
+.hero_left {
+    width: 50%;
+}
+
+.hero_left h1 {
+    color: #f9faf8;
+    
+}
+
+.hero_left p {
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+button {
+    width: 90px;
+    height: 32px;
+    font-size: 14px;
+    background-color: rgb(38, 139, 255);
+    color: white;
+    border-radius: 6px;
+
+}
+
+.hero_right {
+    width: 50%;
+    background-color: rgb(99, 99, 102);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+}
+
+#information h1 {
+    margin: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#boxes {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(38, 139, 255);
+    border-radius: 12px;
+}
+
+.box p {
+    width: 150px;
+    text-align: center;
+    color: #707070;
+}
+
+#quote {
+    padding: 70px 300px;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+#quote p {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+#quote h3 {
+    margin: 8px 0 0 0;
+    font-weight: 700;
+    text-align: right;
+}
+
+#call_to_action {
+    padding: 100px 200px;
+}
+
+.call_box {
+    padding: 50px 100px;
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+.call_box_text {
+    width: 80%;
+}
+
+.call_box_text h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.call_box_text p {
+    margin: 0;
+    padding: 0;
+    color: rgb(209, 209, 209);
+}
+
+.call_box_button {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
